@@ -1,16 +1,30 @@
 
 import './App.css';
 import React from 'react';
-import {BrowserRouter, Route } from 'react-router-dom';
-import Home from '../src/components/Home'
+
 
 function App() {
   return (
     
- <div>
-   <section>
-     <h1>Coding Practice Sesh! JS CSS N OTHERS! </h1>
+ <div>  
+
+   <div class="Headline"> The power of * Display-flex-justify-cent *  </div>
+
+
+   <section class="Banner">
+     <h1 class="header"> Coding Practice Sesh! JS CSS N OTHERS! </h1>
+      <a href> CSS </a>
+      <a> JS </a>
+      <a> Guides </a>
    </section>
+ 
+
+
+   <section class="Banner">
+     <h1 class="header"> Notionz - Set up for React Liabrary </h1>
+      <a href> https://www.notion.so/React-Set-up-6919d33cb85f4afb8482a403282f536b </a>
+   </section>
+
 
 
 
